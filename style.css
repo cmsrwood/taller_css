@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-color: #B721B6;
+    text-align: center;
+}
+.frontend {
+    color: white;
+    font-size: 55px;
+}
+.store {
+    color: #F3CC0D;
+    font-size: 70px;
+}
