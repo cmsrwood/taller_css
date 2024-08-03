@@ -2,12 +2,84 @@ body {
     font-family: sans-serif;
     background-color: #B721B6;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
 .frontend {
     color: white;
     font-size: 55px;
+    text-shadow: black;
 }
+
 .store {
     color: #F3CC0D;
     font-size: 70px;
+    text-shadow: black;
+}
+
+.nuestros-productos {
+    color: #F3CC0D;
+    font-size: 40px;
+    text-shadow: black;
+    margin: 60px 0px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.sinestiloul {
+    list-style: none;
+}
+
+.navbar {
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-betweenw;
+    align-items: center;
+    margin: 20px 160px;
+    border-radius: 8px;
+    gap: 30px;
+}
+
+.col {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.col img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.col h3 {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.col p {
+    font-size: 20px;
+    color: #FFC107;
 }
